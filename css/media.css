@@ -1,0 +1,74 @@
+/*
+*dawn
+*/
+@media all and (max-width: 768px) {
+  .kitten {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+
+  .desktop {
+   display: none;
+  }
+
+  .mobile {
+    background-image: url("../assets/images/bienvenido.png");
+  }
+
+  .mobileLog {
+    background-image: url("../assets/images/mapa.jpg");
+  }
+
+  .entrar{
+    padding: 10px;
+    width: 70%;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    bottom: 10px;
+  }
+
+}
+
+/*
+*night
+*/
+@media all and (max-width: 414px) {
+  .kitten {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+
+  .desktop {
+   display: none;
+  }
+
+  .mobile {
+    background-image: url("../assets/images/bienvenido.png");
+    display: block;
+
+  }
+
+  .mobileLog {
+    background-image: url("../assets/images/mapa.jpg");
+  }
+
+  .entrar{
+    padding: 10px;
+    width: 70%;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    bottom: 10px;
+  }
+}

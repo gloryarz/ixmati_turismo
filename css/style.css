@@ -1,0 +1,51 @@
+/*
+*general
+*/
+html,body {
+  height:100%;
+  margin:0px;
+}
+
+.kitten {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+
+.desktop {
+ background-image: url("../assets/images/bienveniddesk.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+.bienv{
+  color: #ffffff;
+}
+
+.jumbotron{
+  padding: 10px;
+  width: 40%;
+  height: 52vh;
+  margin-left: 10px;
+  margin-top:auto;
+  margin-right: auto;
+  margin-bottom:10px;
+  background-color: transparent;
+}
+
+.mobile {
+  background-image: url("../assets/images/bienvenido.png");
+  display: none;
+}
+
+.entrar{
+  padding: 10px;
+  width: 70%;
+  background-color: transparent;
+  border-color: #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
