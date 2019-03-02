@@ -2,6 +2,7 @@
 
 const btnFb = document.getElementById('btnFb');
 const btnGg = document.getElementById('btnGg');
+const btnS = document.getElementById('btnS');
 
 
 // Funcionalidad del botón Google
@@ -16,6 +17,9 @@ const googleLogin = () => {
   console.log('google');
 };
 
+btnS.addEventListener('click', el => {
+  window.location.assign('principal.html');
+})
 // Funcionalidad del botón Facebook
 btnFb.addEventListener('click', el => {
   var provider = new firebase.auth.FacebookAuthProvider();
