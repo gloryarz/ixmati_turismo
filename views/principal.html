@@ -9,6 +9,22 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link href="https://es.snatchbot.me/sdk/webchat.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDM_8890p9QMwBg6WrVDq1Oy7Lc_X7Irr0&libraries=places"></script>
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #map {
+          height: 100%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+      </style>
+ 
+ 
   </head>
 
   <body>
@@ -37,8 +53,12 @@
           
         
       </div>
+      
+      <div id="map"></div>
+      <div class="col-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.7528690827417!2d-99.17600868129443!3d19.423080930213295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f3a8ca9ff30986c!2sLa+Estela+de+luz!5e0!3m2!1ses-419!2smx!4v1551571579482" width="300" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-
+      </div>
       <button id="btnLogout" class="btn ">salir </button>
     </div>
 
@@ -52,5 +72,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
    <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="../js/map.js"></script>
+  
   </body>
 </html>
