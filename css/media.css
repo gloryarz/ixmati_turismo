@@ -1,6 +1,8 @@
 /*
 *dawn
 */
+
+
 @media all and (max-width: 768px) {
   .kitten {
     background-position: center;
@@ -33,7 +35,15 @@
     bottom: 10px;
   }
 
+  .divEspacio{
+    margin-bottom: 20px;
+    display: block;
+  }
+   
+ 
 }
+
+
 
 /*
 *night
